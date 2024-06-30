@@ -3,6 +3,8 @@ set(SOURCE_FILES
         ${CMAKE_SOURCE_DIR}/libs/glad/include/glad/glad.h
         Renderer.cpp
         Renderer.h
+        Window.cpp
+        Window.h
 )
 
 include_directories(${CMAKE_SOURCE_DIR}/libs/glfw-3.3.8/include)
